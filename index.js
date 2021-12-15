@@ -8,8 +8,9 @@ var mesh, texture;
 var raycaster, light, PointLightHelper, meshplan;
 var type_material = 3;
 var material = new THREE.MeshBasicMaterial({ color: 0xffffff });
-material.needsUpdate = true;
 var mouse = new THREE.Vector2();
+
+material.needsUpdate = true;
 
 // Geometry
 var BoxGeometry = new THREE.BoxGeometry(30, 30, 30, 40, 40, 40);
